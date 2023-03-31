@@ -1,0 +1,39 @@
+{
+  "name": "flickfinder",
+  "version": "1.0.0",
+  "description": "finds movies/shows for you",
+  "main": "index.js",
+  "scripts": {
+    "dev": "python3 /workspaces/flickfinder.net/src/model/tsv_csv.py"
+  },
+  "keywords": [
+    "movie",
+    "finder",
+    "recommender",
+    "suggester",
+    "show",
+    "recommender"
+  ],
+  "author": "Shakir Thelmue",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "axios": "^1.3.3",
+    "csv": "^6.2.8",
+    "csv-parser": "^3.0.0",
+    "csv2json": "^2.0.2",
+    "decompress": "^4.2.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.1",
+    "mongosh": "^0.0.1",
+    "mysql": "^2.18.1",
+    "node-tsv-json": "^0.2.1",
+    "stream-transform": "^3.2.2",
+    "tsv-json": "^2.0.0",
+    "uuid": "^9.0.0"
+  }
+}

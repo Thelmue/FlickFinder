@@ -1,0 +1,230 @@
+/* Varibles */
+
+@import url(../import/var.css);
+
+/* ------------------------------------ */
+
+
+/* Header and Body */
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: var(--background);
+    color: var(--white);
+}
+
+header {
+    background-color: var(--black);
+    height: 94px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.web-name {
+    position: relative;
+    left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.logo {
+    position: relative;
+    left: 25px;
+}
+
+.circle {
+    border-radius: 999px;
+}
+
+/* ------------------------------------ */
+
+/* Navigation */
+
+nav {
+    width: 221px;
+    height: 880px;
+    background-color: var(--black);
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: left;
+}
+
+.nav-item {
+    position: relative;
+    left: 20px;
+    margin: 15px 0px;
+}
+
+
+
+nav svg {
+    color: var(--outline);
+    position: relative;
+    top: 5px;
+}
+
+hr {
+    color: var(--outline);
+}
+
+.pfp {
+    position: relative;
+    top: 12px;
+    right: 5px;
+}
+
+nav {
+    color: var(--outline);
+}
+
+.nav-home-div {
+    color: var(--white);
+}
+
+.user-info {
+    color: var(--white);
+}
+
+.nav-home-div svg {
+    color: var(--white);
+}
+
+.nav-item a {
+    color: var(--outline);
+    text-decoration: none;
+}
+
+.nav-item button {
+    background-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    color: var(--outline);
+    font-size: 16px;
+
+}
+
+.nav-item button span {
+    position: relative;
+    top: -2px;
+}
+
+.active {
+    color: var(--white);
+}
+
+.nav-home-div svg, .nav-home-div span {
+    color: var(--outline);
+}
+
+.nav-placard-div svg, .nav-placard-div span {
+    color: var(--white);
+}
+/* ------------------------------------ */
+
+
+/* Main Content */
+
+main {
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    position: absolute;
+    top: 117px;
+    left: 260px;    
+}
+
+
+
+
+
+
+
+
+
+.page-title {
+    color: var(--outline);
+    font-size: 22pt;
+}
+
+main .list, .update {
+    background-color: var(--black);
+    border-radius: 5px;
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+
+
+.container {
+
+}
+
+
+
+
+.list {
+    position: absolute;
+}
+
+
+.update {
+    position: absolute;
+    left: 597px;
+}
+
+.list-title {
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.update-title {
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+
+main .item {
+    padding: 20px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    width: fit-content;
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+    font-size: 20px;
+    transition: background-color .3s;
+}
+
+main .item:hover {
+    background-color: var(--dark-grey);
+}
+
+
+
+ main .line {
+    position: relative;
+    top: -32px;
+    
+}
+
+
+/* ------------------------------------ */
