@@ -17,7 +17,6 @@ const output = "src/model/data/imdb_data/title.basics.json"
 let docs = [{test: "Tangle"}, {test: "Tangle"}]
 
 
-
 function downloader(url, path) {
     const file = fs.createWriteStream(path);
     return new Promise((resolve, reject) => {
